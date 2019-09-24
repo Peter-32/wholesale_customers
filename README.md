@@ -1,7 +1,16 @@
 wholesale_customers
 ==============================
 
-Clients of a wholesale distributor.
+Recommend products to our top customers to increase revenue significantly.
+
+The data tells us which items and similar and which items the customer has a liking for.  Together, this information will give us sales recommendations.
+
+I found the data online on this website: https://archive.ics.uci.edu/ml/datasets/wholesale+customers
+
+## Formal
+
+
+
 
 Project Organization
 ------------
