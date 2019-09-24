@@ -25,6 +25,22 @@ We should only recommend categories to a customer if the normalized recommendati
 
 This could be solved manually quite easily.  Sort by each group descending, check the percentages of each, and take note of the categories that look like a promising recommendation.  Based on a high level view of the data, I expect about 200 of 450 customers to make up 80% of the unit sales.
 
+Treat horeca and retail customers separately.
+
+## Select Data
+
+#### What Data Do We Have Available?
+
+We have channel, category, and amount.  We should use these.
+
+#### What Data Is Not Available That You Wish Was Available?
+
+None
+
+#### What Data Should Be Excluded?
+
+I don't want to use the region column.
+
 Project Organization
 ------------
 
