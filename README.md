@@ -17,7 +17,7 @@ A computer program is said to learn from experience E with respect to some class
 
 ## Assumptions
 
-Customers are usually already purchasing the other categories from another wholesale distributor.  We want to become their new wholesale distributor for that category.
+Customers are often purchasing the other categories from another wholesale distributor.  We want to become their new wholesale distributor for that category.
 
 We should only go after the top customers we currently have for some categories.
 
