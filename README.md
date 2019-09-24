@@ -13,6 +13,8 @@ I found the data online on this website: https://archive.ics.uci.edu/ml/datasets
 - P: I won't use a performance score, but the model will be interpretable and accurate
 - E: Category similarity and user affinity
 
+A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E
+
 ## Assumptions
 
 Customers are usually already purchasing the other categories from another wholesale distributor.  We want to become their new wholesale distributor for that category.
