@@ -1,7 +1,7 @@
 wholesale_customers
 ==============================
 
-Recommend products to our top customers to increase revenue significantly.
+This project aims to recommend products to our top customers to increase revenue significantly.
 
 The data tells us which items and similar and which items the customer has a liking for.  Together, this information will give us sales recommendations.
 
@@ -9,8 +9,19 @@ I found the data online on this website: https://archive.ics.uci.edu/ml/datasets
 
 ## Formal
 
+- T: Recommending categories to top customers when spend for one category is relatively slow
+- P: I won't use a performance score, but the model will be interpretable and accurate
+- E: Category similarity and user affinity
 
+## Assumptions
 
+Customers are usually already purchasing the other categories from another wholesale distributor.  We want to become their new wholesale distributor for that category.
+
+We should only go after the top customers we currently have for some categories.
+
+We should only recommend categories to a customer if the normalized score deviates far from the percentage currently being purchased for the category.
+
+This could be solved manually quite easily.  Sort by each group descending, check the percentages of each, and take note of the categories that look like a promising recommendation.  It appears that 80% of the sales for one category occur among 50% of the clients, so we would focus on about 50% of the clients to place the recommendations.
 
 Project Organization
 ------------
