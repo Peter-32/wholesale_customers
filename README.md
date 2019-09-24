@@ -19,11 +19,11 @@ A computer program is said to learn from experience E with respect to some class
 
 Customers are often purchasing the other categories from another wholesale distributor.  We want to become their new wholesale distributor for that category, or even recommend they sell more of a category.
 
-We should only go after the top customers we currently have for some categories.
+We should focus recommending only for customers that make up 80% of the unit sales across categories.
 
-We should only recommend categories to a customer if the normalized score deviates far from the percentage currently being purchased for the category.
+We should only recommend categories to a customer if the normalized recommendation score deviates far from the percentage currently being purchased for the category.  This normalization method will become clear once we get the recommendation scores.
 
-This could be solved manually quite easily.  Sort by each group descending, check the percentages of each, and take note of the categories that look like a promising recommendation.  It appears that 80% of the sales for one category occur among 50% of the clients, so we would focus on about 50% of the clients to place the recommendations.
+This could be solved manually quite easily.  Sort by each group descending, check the percentages of each, and take note of the categories that look like a promising recommendation.  Based on a high level view of the data, I expect about 200 of 450 customers to make up 80% of the unit sales.
 
 Project Organization
 ------------
